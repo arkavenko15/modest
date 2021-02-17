@@ -737,14 +737,10 @@ label::before
 }
 
 /* LOVELY WORK */
-.block-work
-{
-    background-color: #3a454d;
-}
+
 .work-container
 {
-    background-color:#292f36;
-}
+    background-color: #3a454d}
 .work-row
 {
     flex-wrap: wrap;
