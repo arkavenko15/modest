@@ -132,16 +132,7 @@
         width: 100%;
 
     }
-    /* .search-line
-    {
-        position: relative;
-    } */
-    .input-search-button-img
-    {
-        position: absolute;
-        top: -90px;
-        right: 1000px;
-    }
+ 
 
 
 }
@@ -322,24 +313,8 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .input-search
-    {
-        width: 100%;
+}
 
-    }
-    .input-search-button
-    {
-        position: relative;
-        background-color: transparent;
-    }
-    .input-search-button-img 
-    {
-
-        position: absolute;
-        bottom: 15px;
-        left:125px; 
-    }
-    }
 @media(max-width:767px)
 {
     .col-xs-1
@@ -520,7 +495,7 @@
 
     position: absolute;
     bottom: 15px;
-    left:125px; 
+    left:110px; 
 }
 input::placeholder
 {
