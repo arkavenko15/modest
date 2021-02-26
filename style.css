@@ -500,7 +500,6 @@
     .header-row
     { 
         flex-wrap: wrap;
-        overflow-x: scroll;
     }   
     .logo
     {
@@ -1050,6 +1049,11 @@ label::before
     border:solid 2px #fff;
     border-radius: 3px;
     text-align: center;
+}
+.show-me-more-button:hover
+{
+    background-color: #23b7a3;
+    border-color: #23b7a3;
 }
 /* WHAT WE DO */
 .wwd-item-title>p
