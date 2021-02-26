@@ -12,6 +12,9 @@
 .header
 {
     background-color: #1d2126;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 .container
 {
@@ -110,6 +113,10 @@
 {
     display: block;
 }
+.main-menu ul 
+{
+    overflow-x:hidden;
+}
 @media(min-width:768px)  
 {
     .col-sm-1
@@ -176,7 +183,6 @@
     {
         max-width: 760px;
     }
-
     .team-item
     {
         margin-bottom: 100px;
@@ -338,6 +344,7 @@
     .main-menu ul
     {
         display: flex;
+        overflow-x: hidden;
     }
 }
 @media(min-width:1200px)
