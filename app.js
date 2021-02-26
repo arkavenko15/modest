@@ -17,3 +17,30 @@ mobileMenu.addEventListener("click", function()
     }
 
 })
+
+
+// MODAL WINDOW BY SCROLL
+let modalWindow = document.querySelector(".modal");
+let closeModalWindow = document.querySelector(".modal-close-btn");
+closeModalWindow.addEventListener('click',closeModal)
+function openModal()
+{
+    modalWindow.classList.add("show");
+    modalWindow.classList.remove("hide");   
+}
+function closeModal()
+{
+    
+    modalWindow.classList.add("hide");
+    modalWindow.classList.remove("show");       
+}
+function showModalByScroll()
+{
+
+    if(window.pageYOffset > document.body.scrollHeight/2)
+    {
+        openModal();
+        window.removeEventListener("scroll",showModalByScroll)
+    }
+}
+window.addEventListener("scroll",showModalByScroll)

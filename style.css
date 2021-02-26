@@ -33,7 +33,83 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+/* MODAL */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    font-family: 'Open Sans';
+}
+.modal-block {
+    width: 500px;
+    height: 300px;
+    background-color: #3a454d;
+    border:3px solid #23b7a3;
+    padding: 15px;
+    margin: 80px auto;
 
+}
+.modal-content
+{
+    text-align: center;
+}
+.modal-content h3
+{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form-field {
+    margin: 10px 0;
+}
+.form-field input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    background-color: #8d8f92;
+    border: none;   
+}
+.form-field input:focus
+{
+    outline: none;
+}
+.modal-close-btn {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.close-btn
+{
+    padding: 10px;
+}
+.close-btn:hover
+{
+
+    background-color:#23b7a3;
+}
+
+.modal-button
+{
+    background-color: #23b7a3;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 0 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.hide
+{
+    display: none;
+}
+.show
+{
+    display: block;
+}
 @media(min-width:768px)  
 {
     .col-sm-1
